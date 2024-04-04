@@ -1,0 +1,13 @@
+{
+  "name": "tailwind-manage-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build" : "yarn tailwindcss -i ./input.css -o ./dist/style/style.css",
+    "watch" : "yarn tailwindcss -i ./input.css -o ./dist/style/style.css --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
