@@ -653,6 +653,10 @@ video {
   height: 2rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -1001,12 +1005,24 @@ body {
 }
 
 @media (min-width: 480px) {
+  .sm\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .sm\:mt-40 {
+    margin-top: 10rem;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
 
   .sm\:self-center {
     align-self: center;
+  }
+
+  .sm\:pt-40 {
+    padding-top: 10rem;
   }
 }
 
